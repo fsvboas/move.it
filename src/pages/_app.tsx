@@ -1,6 +1,5 @@
 import '../styles/global.css'
 
-import { useState } from 'react';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 function MyApp({ Component, pageProps }) {
@@ -12,4 +11,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;
